@@ -27,7 +27,7 @@ User should be able to make a Payment on the Card, which is owned and supported 
 
 TO DO
 
-Build backend API 
+**Build backend API **
 
 Account API
 
@@ -40,10 +40,35 @@ Card Payment API
 We will try to leverage BIAN Spec as much as possible. Only goal was to build the API interface, no working functionality.
 
 
-Build Experience API
+**Build Experience API**
 
 Which aggregates information from different Products API as needed. These can be seen as view helpers.
 
 Experience API will be dedicated for each experience. Web will have it's own, native app will have its own.
+
+
+**Building Lego Blocks for UI**
+
+First things first - build the lowest level reusable component.
+
+In a UI space - HTML is natively porviding Text, Select Box, Check Box..etc. However, for an enterprise design system standpoint, lowest level is what does a text box look like based on the design standard. 
+
+These can be see as below.
+
+- Default size of a text box.
+- Style - rounded conrens or square.
+- Style - Auto focus changes.
+- Style - Font, Color schemes used.
+
+Define HTML element wrapping design specification.
+
+Choice here is Storybook.
+
+Next level is representing 
+
+lowest level component is data element and it's representation. A data element will have certain characterics - Is it an input field, length, format to display or is it a select box
+
+
+
 
 
