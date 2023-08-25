@@ -19,11 +19,31 @@ Build a shell app which bring in content from different Micro Frontend as the us
 
 Here is the classic Credit Card example.
 
-Use should be able to see Account Activity up on clicking Account Infomation. Account Activity belongs to Product API specific to Account API and Transaction API.
+Use should be able to see Account Activity up on clicking Account Infomation. Account Activity belongs to product apis specific to **Account API** and **Transaction API**.
 
-User should be able to see Reward Activity which is owned by Card Rewards API.
+User should be able to see Reward Activity which is owned by **Card Rewards API**.
 
-User should be able to make a Payment on the Card, which is owned and supported by Car Payment API.
+User should be able to make a Payment on the Card, which is owned and supported by **Card Payment API**.
 
+TO DO
+
+Build backend API 
+
+Account API
+
+Transaction API
+
+Card Rewards API
+
+Card Payment API
+
+We will try to leverage BIAN Spec as much as possible. Only goal was to build the API interface, no working functionality.
+
+
+Build Experience API
+
+Which aggregates information from different Products API as needed. These can be seen as view helpers.
+
+Experience API will be dedicated for each experience. Web will have it's own, native app will have its own.
 
 
