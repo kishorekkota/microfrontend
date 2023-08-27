@@ -49,9 +49,11 @@ Experience API will be dedicated for each experience. Web will have it's own, na
 
 **Building Lego Blocks for UI**
 
-First things first - build the lowest level reusable component.
+First things first - build the lowest level reusable component. ( Using naming convention from Atomic Design by Brad Frost)
 
 In a UI space - HTML is natively porviding Text, Select Box, Check Box..etc. However, for an enterprise design system standpoint, lowest level is what does a text box look like based on the design standard. 
+
+**Atoms**
 
 These can be see as below.
 
@@ -64,9 +66,17 @@ Define HTML element wrapping design specification.
 
 Choice here is Storybook.
 
-Next level is representing 
+Next level is representing is a data element -  A data element will have certain characterics - Is it an input field, length, format to display or is it a select box. These characteristic warpped using respective lower level Atoms. 
 
-lowest level component is data element and it's representation. A data element will have certain characterics - Is it an input field, length, format to display or is it a select box
+**Molecules**
+
+Some of the examples for these are.
+
+- An SSN collected in 3-2-4 format using a Text box which includes validation as well.
+- An Address displaying in two lines with supporting dropdown for states and zip code.
+- A Name displaying First Name and Last expandable as you hover in.
+
+
 
 
 
