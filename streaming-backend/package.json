@@ -1,0 +1,22 @@
+{
+  "name": "node-express-microservice",
+  "version": "1.0.0",
+  "description": "A microservice that streams information to the browser using Node.js and Express.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "dotenv": "^10.0.0",
+    "cors": "^2.8.5",
+    "axios": "^0.21.1",
+    "ws": "8.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "author": "",
+  "license": "ISC"
+}
